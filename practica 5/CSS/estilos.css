@@ -1,0 +1,58 @@
+:root{
+    --texto: white; 
+    --cafe:chocolate;
+    --colorPeligro: red;
+    --verde: green;
+    --azul: blue;
+    --hover: violet; 
+    --amarillo: yellow ;
+    --naranja: orange;
+    --negro: black;
+
+
+}
+.black-box{
+    background-color: var( --negro);
+    color: var(--texto);
+}
+.caja{
+    color: var(--colorPeligro)
+}
+.inicio{
+    background-color: var(--azul);
+    color: var(--texto);
+    font-size: 25px;
+    font-family: Georgia;
+}
+.inicio:hover{
+    background-color:  var(--hover);
+
+}
+.nosotros{
+    background-color: var(--hover);
+    color: var(--texto);
+    font-size: 25px;
+    font-family: Georgia;
+}
+.nosotros:hover{
+    background-color: var(--verde);
+}
+
+.actualizacion{
+    background-color: var(--negro);
+    color: var(--texto);
+    font-size: 25px;
+    font-family: Georgia;
+}
+.actualizacion:hover{
+    background-color: var(--azul);
+}
+.iniciar_sesion{
+    background-color: var(--naranja);
+    color: var(--texto);
+    font-size: 25px;
+    font-family: Georgia;
+}
+.iniciar_sesion:hover{
+    background-color: var(--cafe);
+}
